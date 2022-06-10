@@ -1,5 +1,6 @@
 .tag_wrapper {
   min-height: calc(100vh - 15rem);
+  margin-bottom: 5rem;
 }
 
 .tag_container {
@@ -47,11 +48,12 @@
     font-size: 1.5rem;
     font-weight: 100;
 
-    //      @media screen and (max-width:39.375em){ //630px
-    //         font-size: 1.5rem;
-    // }
+    @media screen and (max-width: 50em) {
+      //630px
+      font-size: 1.4rem;
+    }
     @media screen and (max-width: 28em) {
-      font-size: 1.3rem;
+      font-size: 1.25rem;
     }
   }
 }
