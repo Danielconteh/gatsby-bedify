@@ -1,0 +1,212 @@
+html {
+  font-size: 62.5%;
+  box-sizing: inherit;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-weight: 400;
+  line-height: 1.75;
+  background: #fafbfc;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+//
+
+.grid-container {
+  max-width: 112rem;
+  width: 100%;
+  margin: 0 auto;
+
+  overflow-x: hidden;
+
+  padding: 0rem 2rem;
+  @media screen and (max-width: 50em) {
+    //800px
+    padding: 0rem;
+  }
+}
+nav {
+  padding: 1rem; // important when shrink down to small dpi
+
+  overflow-x: hidden;
+}
+.Banner {
+  user-select: none;
+  overflow: hidden;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+}
+
+.hero {
+  height: 55vh;
+  @media screen and (max-width: 50em) {
+    // 900px
+    height: 40vh;
+  }
+
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hero_img {
+  height: 100%;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+// =========================================
+.banner-user {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.banner-user-elem {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+
+.banner-anim-elem .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.banner-user-title {
+  font-size: 4rem;
+  top: 40%;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  @media screen and (max-width: 40.625em) {
+    //650px
+    font-size: 3.5rem;
+  }
+
+  @media screen and (max-width: 31.25em) {
+    //500px
+    font-size: 2rem;
+  }
+}
+
+.banner-user-text {
+  font-size: 1.6rem;
+  top: 40%;
+
+  text-transform: capitalize;
+
+  letter-spacing: 0.2rem;
+  @media screen and (max-width: 31.25em) {
+    //500px
+    font-size: 1.4rem;
+  }
+}
+
+// OVERLAYER
+.carousel_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  border-radius: 0.5rem;
+  background-position: top;
+}
+
+.carousel-img {
+  object-fit: cover;
+}
+
+// CONTACT FORM
+form {
+  margin: 0 auto;
+  width: 100%;
+}
+.form-row {
+  margin: 0 auto;
+  padding: 0.5rem 1.3rem;
+}
+
+label {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: justify;
+  padding-left: 1.5rem;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  display: block;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  cursor: pointer;
+  appearance: none;
+  margin-top: 1rem;
+  color: #fff;
+  border-radius: 0.45rem;
+  letter-spacing: 0.15rem;
+  padding: 1rem 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: 0.2s ease-in-out;
+  text-transform: capitalize;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -webkit-border-radius: 0.45rem;
+  -moz-border-radius: 0.45rem;
+  -ms-border-radius: 0.45rem;
+  -o-border-radius: 0.45rem;
+}
+
+.block {
+  display: block;
+  background: dodgerblue;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.35rem;
+  background: #fff;
+  border: 1px solid transparent;
+  border-color: lightgray;
+  -webkit-border-radius: 0.35rem;
+  -moz-border-radius: 0.35rem;
+  -ms-border-radius: 0.35rem;
+  -o-border-radius: 0.35rem;
+}
+
+input {
+  padding: 0.75rem 0.75rem;
+  border-radius: 0.25rems;
+}
+
+// textarea {
+// }

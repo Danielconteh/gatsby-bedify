@@ -1,0 +1,13 @@
+.Footer {
+  grid-column: 1 / -1;
+  grid-row: 4/-1;
+  background: #222;
+  color: #fff;
+  padding: 3rem 0rem;
+  height: 4rem;
+  text-align: center;
+  // font-family: "Cormorant Garamond", serif;
+}
+.footer_item {
+  font-size: 1.5rem;
+}

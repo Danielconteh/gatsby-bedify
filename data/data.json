@@ -1,0 +1,82 @@
+{
+    "data": [
+{
+    "Description":
+    "From entertaining guests to helping us host the perfect movie night, sofas in our living room ensembles are a staple in our decor. Take this one for example: Crafted from wood, this piece is perched atop slightly tapered feet and showcases an L-shaped silhouette, working well in any corner or spacious sitting room. Wrapped in foam-filled faux leather for an inviting feel, this piece is designed to support up to 500 lbs after assembly which consists of attaching the legs and backrest. Plus, it comes with a storage ottoman.",
+    "image":"",
+    "What's Included?":["Toss Pillow","Chaise Included","Ottoman Included"],
+    "Product Details":  {
+        "Storage Space Included": "Yes",
+        "Seating Capacity": 4,
+        "Cushion Construction": "Foam",
+        "Design": "Stationary"
+    },
+   " Weights & Dimensions":{
+       "Chaise": "35'' H x 74.5'' W x 32'' D",
+       "Ottoman":"16.5'' H x 37'' W x 24.5'' D",
+        "Overall":"103.5'' W",
+        "Back Cushion":"17'' H",
+        "Seat Height - Floor to Seat":"16''",
+        "Seat Depth - Front to Back":"21''",
+        "Arm Height - Floor to Arm":"22''",
+        "Leg Height - Top to Bottom":"4''",
+        "Minimum Door Width - Side to Side":"33''",
+        "Overall Product Weight":"193 lb"
+   },
+   "total":"The weight capacity of the sofa is 250 pounds and 250 pounds for the chaise.",
+
+   "Specifications":{
+       "Features":{
+        "Product Type":"Sofa & Chaise",
+        "Shape":"L-Shaped",
+        "Design":"Stationary",
+        "Pieces Included":"Chaise; Loveseat; Sofa",
+        "Number of Pieces":3,
+        "Seating Capacity":4,
+        "Upholstery Material":"Faux leather",
+
+        "Upholstery Material Details":"Polyurethane Leather",
+        "Faux Leather Type":"PU",
+        "Seat Fill Material":"Foam",
+        "Seat Fill Material Details":"Foam",
+        "Seat Construction":"Pocket Spring",
+        "Back Fill Material":"Foam",
+        "Frame Material":"Solid Wood",
+        "Leg Material":"Resin; Plastic",
+        "Leg Color":"Black",
+        "Arm Type":"Square Arms",
+        "Back Type":"Tufted back",
+        "Storage Space Included":"Yes",
+        "Storage Location":"Ottoman",
+        "Tufted Cushions":"Yes",
+        "Removable Cushions":"Yes",
+        "Removable Cushion Cover":"Yes",
+        "Reversible Cushions":"No",
+        "Removable Cushion Location":"Back",
+        "Toss Pillows Included":"Yes",
+        "Number of Toss Pillows":2,
+        "Product Care":"Spot cleaning/Leather cleaner",
+        "Weight Capacity": "1000 lb",
+        "Country of Origin":"China",
+        "Supplier Intended and Approved Use":"Residential Use",
+        "Foam Density":"Medium",
+        "Cushion Construction":"Foam"
+
+       }
+   },
+        "Warranty":{
+            "Commercial Warranty":"Yes",
+            "Product Warranty":"Yes",
+            "Warranty Length":"90 Days"
+        }
+    },
+
+    {
+        "Description":"A long day should end with takeout and relaxing on the sofa. We can help with the second part. This sofa comes in several stunning color and fabric options that makes its design even more eye-catching. Two rows of button tufting; curved, flared arms; and tapered wood legs all contribute to the retro feel that's still popular today. Crafted from a kiln-dried hardwood frame, this piece features foam cushioning that's tightly wrapped with your choice of fabric. The three seat cushions are attached to keep things neat and tidy. Able to seat three people, this is a great option for smaller spaces that still need to appease a group. (Hello, movie night.)",
+        "image":"",
+        
+    }
+
+
+]
+}

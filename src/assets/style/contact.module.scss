@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  // flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 3rem;
+
+  @media screen and (max-width: 50em) {
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  &__par {
+    align-self: center;
+    @media screen and (max-width: 50em) {
+      padding: 0.5rem 2rem;
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2.85rem;
+      text-transform: capitalize;
+      letter-spacing: 0.5rem;
+      color: gray;
+      text-decoration: none;
+      font-weight: 200;
+    }
+    p {
+      font-size: 1.5rem;
+      margin: 1rem 0rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+
+  &__form {
+    width: 100%;
+    background: #fff;
+    border-radius: 0.35rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 2rem 2.5rem;
+    -webkit-border-radius: 0.35rem;
+    -moz-border-radius: 0.35rem;
+    -ms-border-radius: 0.35rem;
+    -o-border-radius: 0.35rem;
+    padding: 4rem 2rem;
+    text-align: center;
+    @media screen and (max-width: 50em) {
+      // padding: 0.5rem 2rem;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+
+    @media screen and (max-width: 31.25em) {
+      // 500px
+      width: 85%;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+// SHOWCASE SECTION
+.showCase {
+  color: gray;
+  margin-top: 3rem;
+  padding: 3rem 1rem;
+  &__heading {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+
+    h2 {
+      text-decoration: none;
+      font-weight: 200;
+    }
+  }
+}
