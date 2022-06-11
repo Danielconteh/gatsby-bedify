@@ -6,11 +6,9 @@ import Bed from "../component/detail/BedList"
 
 const mainStyle = {
   minHeight: `calc(100vh - 15rem)`,
-}
-
-const spacing = {
   padding: "0.5rem 1rem",
 }
+
 const TagTemplate = ({ data }) => {
   const bed = data?.allContentfulBed?.nodes
 
@@ -18,7 +16,7 @@ const TagTemplate = ({ data }) => {
     <>
       <Layout>
         <main style={mainStyle}>
-          <div className="grid-container" style={spacing}>
+          <div className="grid-container">
             {/* <div className={Style.bed_container_bed}> */}
             <Bed bed={bed} />
             {/* </div> */}
