@@ -9,6 +9,7 @@ const mainStyle = {
   minHeight: `calc(100vh - 15rem)`,
 }
 
+
 const ContentfullBed = ({ data }) => {
   const { nodes } = data?.allContentfulBed
 
