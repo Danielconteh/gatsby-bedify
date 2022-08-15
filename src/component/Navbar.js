@@ -3,6 +3,7 @@ import { useRef, useState, useEffect } from "react"
 import * as Styles from "../assets/style/navbar.module.scss"
 import { FaBars } from "react-icons/fa"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 // logo
 import logo from "../assets/logo.png"
@@ -45,7 +46,14 @@ export default function Home() {
       <div className={Styles.nav_container}>
         <div className={Styles.nav_header}>
           <Link to="/" className={Styles.nav_header_log}>
-            <img src={logo} alt="logo" height={25} />
+                <StaticImage
+                  src={logo}
+                  alt="logo"
+                  placeholder="blurred"
+                  layout="fixed"
+                  width={25}
+                  height={25}
+                />                   
           </Link>
           <span onClick={toggleLinks} className={Styles.nav_header_icon}>
             {" "}
