@@ -45,10 +45,10 @@ export default function Home() {
     <nav className={Styles.nav}>
       <div className={Styles.nav_container}>
         <div className={Styles.nav_header}>
-          <Link to="/">
-            <img src={log} alt="" height={25}/>
+          <Link to="/"className={Styles.nav_header_log}>
+
                 <StaticImage
-                  src={logo}
+                  src="../assets/logo.png"
                   alt="logo"
                   placeholder="blurred"
                   layout="fixed"
